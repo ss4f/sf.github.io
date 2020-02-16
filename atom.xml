@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://shifei.online/"/>
-  <updated>2020-02-16T23:37:47.147Z</updated>
+  <updated>2020-02-16T23:54:48.381Z</updated>
   <id>http://shifei.online/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>��Ŀ��XXX���ѱ� OS X ʹ�ã����ܴ򿪡�������취</title>
+    <title>��Ŀ��XXX���ѱ� OS X ʹ�ã����ܴ򿪵Ľ���취</title>
     <link href="http://shifei.online/2020/02/17/bugs/"/>
     <id>http://shifei.online/2020/02/17/bugs/</id>
     <published>2020-02-16T23:33:07.850Z</published>
-    <updated>2020-02-16T23:37:47.147Z</updated>
+    <updated>2020-02-16T23:54:48.381Z</updated>
     
     <content type="html"><![CDATA[<p>���ն��н��뵽Ӳ���ڵĶ�Ӧ�ļ�Ŀ¼�����룺ls -l ������Կ�����</p><p>��Щ��ռ�õ��ļ����Ժ��涼������@������ Mac OS X �ļ�ϵͳ�ĸ�������extended attributes��</p><p>ִ�����xattr -c <em> . </em> �ɶ�Ŀ¼�������ļ����и������������</p>]]></content>
     
@@ -590,42 +590,6 @@
   </entry>
   
   <entry>
-    <title>Git 常用命令</title>
-    <link href="http://shifei.online/2018/07/05/Git-kb/"/>
-    <id>http://shifei.online/2018/07/05/Git-kb/</id>
-    <published>2018-07-04T20:21:20.000Z</published>
-    <updated>2018-12-14T05:10:16.381Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li>常规上传步骤<ol><li>建立本地仓库 <code>git init</code></li><li>添加文件到暂存区： <code>git add [filename]</code></li><li>暂存区文件提交到本地仓库： <code>git commit -m &#39;xxx&#39;</code> </li><li>关联本地仓库至GitHub仓库：<code>git remote add origin [url]</code></li><li>上传本地仓库文件至GitHub远程仓库:  <code>git push -u origin master</code> </li><li>再更改代码上传至远程仓库使用：<code>git push</code></li></ol></li></ol><a id="more"></a><ol start="2"><li><p>分支相关</p><ol><li>新建并切换到本地分支： <code>git checkout -b [branch]</code> （相当于 <code>git branch [branch]</code> + <code>git checkout [branch]</code>）</li><li>添加文件： <code>git add .</code></li><li>提交到本地： <code>git commit -m &#39;xxx&#39;</code></li><li>关联并上传至远程仓库分支： <code>git push --set-upstream origin [branch]</code></li><li>常用命令：<ul><li>查看本地所有分支： <code>git branch -r</code> </li><li>查看所有分支： <code>git branch -a</code></li><li>查看远程仓库： <code>git remote</code></li><li>删除分枝： <code>git branch -d [branch]</code></li><li>切换远程分支： <code>git checkout [branch]</code></li><li>查看远程仓库的信息： <code>git remote show [remote]</code></li><li>强制上传到远程： <code>git push -f origin [branch]</code></li></ul></li></ol></li><li><p>查看本地仓库<strong>状态</strong>： <code>git status</code></p></li><li>查看已有的<strong>配置</strong>信息： <code>git config --list</code></li><li>设置默认文本编辑器： <code>git config --global core.editor [name]</code></li><li><strong>删除</strong>git本地仓库： <code>rm -rf .git</code></li><li>查询是否使用<strong>代理</strong>： <code>git config --global http.proxy</code></li><li>取消代理： <code>git config --global --unset http.proxy</code></li><li><strong>回滚</strong>最近一次操作： <code>git reset --soft HEAD^</code></li><li><strong>撤销</strong>本地所有<strong>修改</strong>： <code>git checkout .</code></li><li><strong>撤销上一次提交</strong>的所有内容： <code>git reset HEAD [file-name/为空则为所有文件]</code></li><li>查看自己 GitHub 并修改账号信息： <code>curl -i -u username:token https://api.github.com/user</code> </li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;常规上传步骤&lt;ol&gt;
-&lt;li&gt;建立本地仓库 &lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;添加文件到暂存区： &lt;code&gt;git add [filename]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;暂存区文件提交到本地仓库： &lt;code&gt;git commit -m &amp;#39;xxx&amp;#39;&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;关联本地仓库至GitHub仓库：&lt;code&gt;git remote add origin [url]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;上传本地仓库文件至GitHub远程仓库:  &lt;code&gt;git push -u origin master&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;再更改代码上传至远程仓库使用：&lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-    
-    </summary>
-    
-      <category term="programing" scheme="http://shifei.online/categories/programing/"/>
-    
-      <category term="keyboard" scheme="http://shifei.online/categories/programing/keyboard/"/>
-    
-    
-      <category term="Git" scheme="http://shifei.online/tags/Git/"/>
-    
-      <category term="keyboard" scheme="http://shifei.online/tags/keyboard/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Docker 常用命令</title>
     <link href="http://shifei.online/2018/07/05/docker-kb/"/>
     <id>http://shifei.online/2018/07/05/docker-kb/</id>
@@ -656,6 +620,42 @@
       <category term="keyboard" scheme="http://shifei.online/tags/keyboard/"/>
     
       <category term="Docker" scheme="http://shifei.online/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git 常用命令</title>
+    <link href="http://shifei.online/2018/07/05/Git-kb/"/>
+    <id>http://shifei.online/2018/07/05/Git-kb/</id>
+    <published>2018-07-04T20:21:20.000Z</published>
+    <updated>2018-12-14T05:10:16.381Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>常规上传步骤<ol><li>建立本地仓库 <code>git init</code></li><li>添加文件到暂存区： <code>git add [filename]</code></li><li>暂存区文件提交到本地仓库： <code>git commit -m &#39;xxx&#39;</code> </li><li>关联本地仓库至GitHub仓库：<code>git remote add origin [url]</code></li><li>上传本地仓库文件至GitHub远程仓库:  <code>git push -u origin master</code> </li><li>再更改代码上传至远程仓库使用：<code>git push</code></li></ol></li></ol><a id="more"></a><ol start="2"><li><p>分支相关</p><ol><li>新建并切换到本地分支： <code>git checkout -b [branch]</code> （相当于 <code>git branch [branch]</code> + <code>git checkout [branch]</code>）</li><li>添加文件： <code>git add .</code></li><li>提交到本地： <code>git commit -m &#39;xxx&#39;</code></li><li>关联并上传至远程仓库分支： <code>git push --set-upstream origin [branch]</code></li><li>常用命令：<ul><li>查看本地所有分支： <code>git branch -r</code> </li><li>查看所有分支： <code>git branch -a</code></li><li>查看远程仓库： <code>git remote</code></li><li>删除分枝： <code>git branch -d [branch]</code></li><li>切换远程分支： <code>git checkout [branch]</code></li><li>查看远程仓库的信息： <code>git remote show [remote]</code></li><li>强制上传到远程： <code>git push -f origin [branch]</code></li></ul></li></ol></li><li><p>查看本地仓库<strong>状态</strong>： <code>git status</code></p></li><li>查看已有的<strong>配置</strong>信息： <code>git config --list</code></li><li>设置默认文本编辑器： <code>git config --global core.editor [name]</code></li><li><strong>删除</strong>git本地仓库： <code>rm -rf .git</code></li><li>查询是否使用<strong>代理</strong>： <code>git config --global http.proxy</code></li><li>取消代理： <code>git config --global --unset http.proxy</code></li><li><strong>回滚</strong>最近一次操作： <code>git reset --soft HEAD^</code></li><li><strong>撤销</strong>本地所有<strong>修改</strong>： <code>git checkout .</code></li><li><strong>撤销上一次提交</strong>的所有内容： <code>git reset HEAD [file-name/为空则为所有文件]</code></li><li>查看自己 GitHub 并修改账号信息： <code>curl -i -u username:token https://api.github.com/user</code> </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;常规上传步骤&lt;ol&gt;
+&lt;li&gt;建立本地仓库 &lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;添加文件到暂存区： &lt;code&gt;git add [filename]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;暂存区文件提交到本地仓库： &lt;code&gt;git commit -m &amp;#39;xxx&amp;#39;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;关联本地仓库至GitHub仓库：&lt;code&gt;git remote add origin [url]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传本地仓库文件至GitHub远程仓库:  &lt;code&gt;git push -u origin master&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;再更改代码上传至远程仓库使用：&lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="programing" scheme="http://shifei.online/categories/programing/"/>
+    
+      <category term="keyboard" scheme="http://shifei.online/categories/programing/keyboard/"/>
+    
+    
+      <category term="keyboard" scheme="http://shifei.online/tags/keyboard/"/>
+    
+      <category term="Git" scheme="http://shifei.online/tags/Git/"/>
     
   </entry>
   
